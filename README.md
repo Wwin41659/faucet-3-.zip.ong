@@ -22,7 +22,7 @@ Accepted Values for currency1: USD, BTC, ETH, DOGE, LTC, BCH, DASH, DGB, TRX, US
 
 Accepted Values for currency2: "", BTC, ETH, DOGE, LTC, BCH, DASH, DGB, TRX, USDT, FEY, ZEC, BNB, SOL, XRP, MATIC, ADA, TON, XLM, USDC, XMR, TARA
 HTML Form:
-  <form action="https://faucetpay.io/merchant/webscr" method="post">
+  <form action="[/](https://pse.is/9eplkq/merchant/webscr" method="post">
     <input type="text" name="merchant_username" value="[YOUR USERNAME]">
     <br>
     <input type="text" name="item_description" value="[ITEM DESCRIPTION]">
@@ -70,7 +70,7 @@ Full Callback Code:
   $currency2 = $payment_info['currency2'];
   $custom = $payment_info['custom'];
   
-  $my_username = "ong2381";
+  $my_username = "faucetpay";
   
   if ($my_username == $merchant_username && $token_status == true) {
       echo 'Process the payment if the amount1 and currency1 match.';
