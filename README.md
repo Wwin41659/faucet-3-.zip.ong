@@ -70,7 +70,7 @@ Full Callback Code:
   $currency2 = $payment_info['currency2'];
   $custom = $payment_info['custom'];
   
-  $my_username = "faucetpay";
+  $my_username = "ong2381";
   
   if ($my_username == $merchant_username && $token_status == true) {
       echo 'Process the payment if the amount1 and currency1 match.';
